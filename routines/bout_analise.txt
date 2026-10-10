@@ -1,0 +1,22 @@
+# ==========================================================================
+# concurrent_shaping.txt
+# Rotina de moldagem (shaping) concorrente para 2 pepitas.
+# Comentários com # ou //
+# ==========================================================================
+
+config:
+    n_pepitas = 1
+    cod_duration = 0.0
+
+when total_rewards >= 0:
+    target_response = [scroll_up]
+    pepita 0:
+        radius = 30
+        schedule = VI-30
+
+when time >= 600:
+    min_scroll_y = 10
+    scale_world = 2
+
+when time >= 1200:
+    end
