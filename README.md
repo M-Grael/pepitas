@@ -25,6 +25,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 1. Clone este repositório:
 ```bash
 git clone https://github.com/M-Grael/pepitas.git
+```
 
 2. Acesse a pasta do projeto
 cd pepitas
@@ -33,11 +34,12 @@ cd pepitas
 [ATENÇÃO] A biblioteca correta é o Pygame Community Edition (pygame-ce). O comando abaixo já instalará a versão correta listada no projeto para evitar conflitos com o pygame comum:
 ```bash
 pip install -r requirements.txt
-
+```
 =====================
    COMO USAR
 =====================
 no terminal, execute:
+```bash
 python main.py
-
+```
 
